@@ -1,0 +1,28 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ccd9f5;
+    max-width: 1024px;
+    padding: 16px;
+    flex-grow: 1
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 0 0 0;
+    width: 100%;
+    > div {
+        text-align: left;
+        width: 30%
+    }
+} 

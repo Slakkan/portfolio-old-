@@ -1,0 +1,14 @@
+@import './components/home';
+@import './components/header';
+
+#app {
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    height: 100%;
+}
+
+#router {
+    display: flex;
+    flex-direction: column
+}
